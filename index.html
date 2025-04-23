@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>yksisarvinen kettu</title>
 </head>
 <body>
     <header>
-        <h1>Tervetuloa testisivustolleni</h1>
+        <h1 class="header-example">Tervetuloa testisivustolleni</h1>
     </header>
 
     <nav>
-        <ul>
+        <ul class="list-example">
             <li><a href="#main-content">Go to Main Content</a></li>
             <li><a href="#about-me">Go to About Me</a></li>
             <li><a href="#footer">Go to Footer</a></li>
@@ -20,16 +21,23 @@
 
     <main>
         <h2>Main Content</h2>
-        <p>Harjoittelen sivuston tekemistä. Tämä on ensimmäinen testisivustoni.</p>
+        <p class="color-example">Harjoittelen sivuston tekemistä. Tämä on ensimmäinen testisivustoni.</p>
     </main>
 
     <about id="about-me">
         <h2>About Me</h2>
-        <p>Opiskelen Laureassa IT-tradenomiksi. Tämä sivusto kuuluu opintoihini</p>
+        <p class="text-example">Opiskelen Laureassa IT-tradenomiksi. <span class="div-example"></span> Tämä sivusto kuuluu opintoihini</p>
     </about>
 
     <footer id="footer">
         <p>&copy; 2025 Maria Martikainen</p>
     </footer>
+    <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </p>   
 </body>
 </html>
