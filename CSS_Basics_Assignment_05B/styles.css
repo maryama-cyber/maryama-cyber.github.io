@@ -1,0 +1,36 @@
+nav ul{
+list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    }
+
+nav li{
+    display: inline;
+}
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-example {
+    background-color: #f7c476;
+    text-align: center;
+}
+
+.div2-example {
+    background-color: #c087f6;
+    text-align: center;
+}
+
+.div3-example {
+    background-color: #8e9af6;
+}
+
+.div4-example {
+    background-color: #faebd7;
+}
